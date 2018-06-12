@@ -21,7 +21,7 @@ public class ListNodeFactory
 //        }
 //    }
 
-    public static ListNode getListNodes(int numOfListNode)
+    static ListNode getListNodes(int numOfListNode)
     {
         ListNode head = new ListNode(0);
         ListNode medi = head;
@@ -36,7 +36,7 @@ public class ListNodeFactory
         return head.next;
     }
 
-    public static ListNode getSortedListNodes(int numOfListNode)
+    static ListNode getSortedListNodes(int numOfListNode)
     {
         ListNode head = new ListNode(0);
         ListNode medi = head;
